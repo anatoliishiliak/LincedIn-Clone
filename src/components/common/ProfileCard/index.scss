@@ -1,0 +1,82 @@
+$linkedinBlue1: #0072b1;
+$linkedinBlue2: #0073b1;
+$linkedinBlue3: #004f79;
+
+.profile-card {
+  width: auto;
+  min-height: auto;
+  background-color: whitesmoke;
+  margin: 30px;
+  border-radius: 5px;
+  padding: 20px;
+  position: relative;
+
+  .edit-btn {
+    position: absolute;
+    right: 20px;
+    .edit-icon {
+      cursor: pointer;
+      width: 25px;
+      height: 25px;
+      padding: 10px;
+    }
+    .edit-icon:hover {
+      background-color: rgba(223, 223, 223, 0.989);
+      border-radius: 50%;
+    }
+  }
+  .profile-info {
+    display: flex;
+    justify-content: space-between;
+    .profile-image {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #dadada;
+      padding: 5px;
+      cursor: pointer;
+    }
+    .profile-image:hover {
+      opacity: 0.9;
+      background-color: #ededed;
+    }
+    .website {
+      color: $linkedinBlue1;
+    }
+    .right-info {
+      margin: 25px 20px 0 0;
+      width: 100%;
+      text-align: right;
+      .college,
+      .company {
+        font-family: system-ui;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 30px;
+      }
+      .company {
+        margin-top: -15px;
+      }
+    }
+  }
+  .user-name {
+    font-family: system-ui;
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .headline {
+    width: 80%;
+    margin: -25px 0 0 0;
+    font-weight: 400;
+    font-family: system-ui;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.9);
+    line-height: 20px;
+  }
+  .skills-label {
+    font-weight: 600;
+  }
+}

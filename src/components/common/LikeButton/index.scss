@@ -1,0 +1,90 @@
+.like-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  padding: 7px;
+
+  p {
+    font-family: system-ui;
+    font-weight: 400;
+    color: rgba(116, 116, 116, 0.835);
+    font-size: 12px;
+  }
+  .hr-line {
+    margin-top: -20px;
+  }
+  .like-comment {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 5px;
+  }
+  .likes-comment-inner {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: -20px;
+    p {
+      font-family: system-ui;
+      font-weight: 600;
+      font-size: 16px;
+    }
+    .blue {
+      color: #0072b1;
+    }
+    .gray {
+      color: rgba(116, 116, 116, 0.835);
+    }
+  }
+  .comment-input {
+    height: 40px;
+    background-color: whitesmoke;
+    padding-left: 10px;
+    border-radius: 30px;
+    border: 1px solid #737373;
+    color: #696969;
+    font-family: system-ui;
+    font-size: 16px;
+  }
+  .comment-input:focus {
+    outline: 1px solid #949494;
+  }
+  .add-comment-btn {
+    width: 150px;
+    height: 35px;
+    background-color: #0072b1;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    margin: 15px 0;
+    cursor: pointer;
+    color: white;
+  }
+  .all-comments {
+    display: flex;
+    gap: 5px;
+    justify-content: start;
+    flex-direction: column;
+    background-color: rgb(227, 227, 227);
+    border-radius: 10px;
+    padding: 0px 10px;
+    position: relative;
+    margin-top: 10px;
+    .comments-name {
+      color: #212121;
+      font-family: system-ui;
+      font-weight: 600;
+      font-size: 15px;
+    }
+    .comment {
+      margin-top: -10px;
+      font-family: system-ui;
+      font-size: 14px;
+    }
+    .timestamp {
+      position: absolute;
+      right: 10px;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.search-users {
+  max-width: 250px;
+  margin-left: 15px;
+
+  position: relative;
+  input {
+    height: 30px;
+    width: 100%;
+    background-color: whitesmoke;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+    color: #212121;
+    padding-left: 10px;
+    padding-right: 40px;
+    outline: none;
+    font-size: 16px;
+    font-family: system-ui;
+  }
+  input:not(:placeholder-shown) {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .close-icon {
+    position: absolute;
+    top: 4px;
+    right: -43px;
+    color: #707070;
+    cursor: pointer;
+  }
+  input:focus {
+    border: 1px solid #707070;
+  }
+  ::placeholder {
+    font-size: 16px;
+    font-family: system-ui;
+  }
+}
