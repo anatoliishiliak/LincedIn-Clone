@@ -8,7 +8,7 @@ import { getStorage } from 'firebase/storage';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyAJisSteAvKRWGc-sCvrTtfko4w0k2j7Go',
+  apiKey: '*****************************************',
   authDomain: 'lincedin-clone-4e84a.firebaseapp.com',
   projectId: 'lincedin-clone-4e84a',
   storageBucket: 'lincedin-clone-4e84a.appspot.com',
