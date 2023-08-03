@@ -9,11 +9,11 @@ import { getStorage } from 'firebase/storage';
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: '*****************************************',
-  authDomain: 'lincedin-clone-4e84a.firebaseapp.com',
-  projectId: 'lincedin-clone-4e84a',
-  storageBucket: 'lincedin-clone-4e84a.appspot.com',
-  messagingSenderId: '455044465339',
-  appId: '1:455044465339:web:1eca1cd4dbd6e6d83e1f9e',
+  authDomain: '*****************************************',
+  projectId: '*****************************************',
+  storageBucket: '*****************************************',
+  messagingSenderId: '*****************************************',
+  appId: '*****************************************',
 };
 
 // Initialize Firebase
